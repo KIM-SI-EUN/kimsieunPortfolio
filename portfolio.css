@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+html, body { height:100%; }
+.wrap{ height:100%; overflow: hidden; }
+
+#imgG { width:400%; height:100%; }
+#imgG>li a{width: 236px; height: 46px; text-transform: uppercase; line-height: 46px; text-align: center; color: #fff; position: absolute; text-indent: 0;}
+.i1{position: relative;}
+#imgG>.i1 a{background-color: #ff554d; bottom: 174px; left: 917px;}
+.i2{position: relative;}
+#imgG>.i2 a{background-color: #739ecd; bottom: 174px; left: 917px;}
+.i3{position: relative;}
+#imgG>.i3 a{background-color: #5d9566; bottom: 174px; left: 917px;}
+.i4{position: relative;}
+#imgG>.i4 a{background-color: #8c83ac;  bottom: 174px; left: 917px;}
+
+
+header{position: relative;}
+header>ul{position: absolute; right: 50px; top: 50px; font-family: Noto Sans, sans-serif; z-index: 100; }
+header>ul li{float: left; text-transform: uppercase; margin-right: 30px; }
+a{color: #000; }
+header>ul li:hover{text-decoration: line-through; }
+
+#imgG li { float:left; width:25%; height:100%; background-size:cover; background-position:50%; text-indent:-999%; }
+#imgG .i1 { background-image:url(images/서브1-1.jpg); }
+#imgG .i2 { background-image:url(images/서브1-2.jpg); }
+#imgG .i3 { background-image:url(images/서브1-3.jpg); }
+#imgG .i4 { background-image:url(images/서브1-4.jpg); }
+#btn { width:160px; height:20px; position:absolute; right:0; left:0; bottom:70px; margin:auto; }
+#btn li {margin:0 10px; text-indent:-999%; width:20px; height:20px; background:rgba(204,204,204,1); float:left; border-radius:50%; cursor:pointer;  }
+#btn li:hover { background:#686868; }
+.on { border:2px solid #686868; box-sizing:border-box; }
